@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:id="@+id/homeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Title and navigation icons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/shoplite"
+                android:textColor="#1565C0"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/profileIconButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="My Profile"
+                android:src="@android:drawable/ic_menu_myplaces"
+                android:tint="#1565C0"
+                android:padding="10dp" />
+
+            <ImageButton
+                android:id="@+id/cartIconButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="4dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Shopping Cart"
+                android:src="@android:drawable/ic_menu_add"
+                android:tint="#1565C0"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <!-- Welcome message -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/hello_welcome_to_shoplite"
+            android:textColor="#212121"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- Search -->
+        <EditText
+            android:id="@+id/searchInput"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#1565C0"
+            android:hint="@string/search_products"
+            android:inputType="text"
+            android:singleLine="true" />
+
+        <!-- Flash Sale banner -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#FFEBEE">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flash_sale"
+                android:textColor="#D32F2F"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/grab_exciting_discounts_before_the_sale_ends"
+                android:textColor="#B71C1C"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/flashSaleButton"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D32F2F"
+                android:text="@string/flash_sale_shop_now"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Categories -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/shop_by_category"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/electronicsButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/electronics" />
+
+        <Button
+            android:id="@+id/fashionButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/fashion" />
+
+        <Button
+            android:id="@+id/groceryButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/grocery" />
+
+        <Button
+            android:id="@+id/beautyButton"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/beauty" />
+
+        <!-- Popular products -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/popular_products"
+            android:textColor="#212121"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/viewProductsButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#1565C0"
+            android:text="@string/explore_products"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

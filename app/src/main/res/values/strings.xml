@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ShopLite</string>
+    <string name="flash_sale_shop_now">FLASH SALE-SHOP NOW</string>
+    <string name="shoplite">ShopLite</string>
+    <string name="hello_welcome_to_shoplite">Hello, welcome to ShopLite!</string>
+    <string name="search_products">Search products...</string>
+    <string name="shop_by_category">Shop by Category</string>
+    <string name="electronics">Electronics</string>
+    <string name="fashion">Fashion</string>
+    <string name="grocery">Grocery</string>
+    <string name="beauty">Beauty</string>
+    <string name="popular_products">Popular Products</string>
+    <string name="explore_products">Explore Products</string>
+    <string name="flash_sale">FLASH SALE</string>
+    <string name="grab_exciting_discounts_before_the_sale_ends">Grab exciting discounts before the sale ends!</string>
+    <string name="back_to_home">← Back to Home</string>
+    <string name="loading_sale">Loading sale...</string>
+    <string name="my_shopping_cart">My Shopping Cart</string>
+    <string name="shoplite_user">ShopLite User</string>
+    <string name="could_not_load_profile">Could not load profile</string>
+</resources>
